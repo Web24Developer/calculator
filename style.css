@@ -1,0 +1,38 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+}
+#btns{
+    padding:20px ;
+}
+#btns button{
+    font-weight: bold;
+    padding: 5px;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+input{
+    margin: 2px;
+    padding: 5px;
+    font-weight: bold;
+}
+.displaybox{
+    height: 100px;
+    width: 250px;
+    background-color: black;
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.displaybox h3{
+    color: white;
+    font-size: 1.5rem;
+}
